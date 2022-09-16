@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    concert=width=devace-width initial-scale=1.0>
+    <link rel="stylesheet" type="image/x-icon" href="./assets/img/ico.png">
+	<link rel="shortcut icon" href="./assets/img/ico.png" type="image/x-icon" />
+    <title>NLW eSports</title> <!--titulo da pagina -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="fundo-borda">
+		
+			<a href="https://github.com/talilotarlison"  target="_blank"><img src="https://github.com/talilotarlison.png" alt="Foto de perfil Talilo" width="200px" height="200px"> </a>
+			
+        </div>
+    </header>
+	
+	<main>
+		<div class="meus-jogos">
+			<h1>Meus jogos</h1>
+			<p>Meus jogos que mais gosto!!</p>
+			
+			<ul class="lista-jogos">
+				<li>
+					<a href="https://www.twitch.tv/directory/game/League%20of%20Legends"  target="_blank"><img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Game LOL" width="200px" height="300px"> </a>
+				</li> 
+				<li>
+					<a href="https://www.twitch.tv/directory/game/League%20of%20Legends"  target="_blank"><img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Game LOL" width="200px" height="300px"> </a>
+				</li> 
+
+				<li>
+					<a href="https://www.twitch.tv/directory/game/League%20of%20Legends"  target="_blank"><img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Game LOL" width="200px" height="300px"> </a>
+				</li> 
+
+
+			</ul>
+		</div>	
+		<div class="meus-canais">
+			<h1>Meus Canais e Streming</h1>
+			<p>Meus canais que mais gosto!!</p>
+			
+			<ul class="lista-canais">
+				<li>
+					<a href="https://www.twitch.tv/directory/game/League%20of%20Legends"  target="_blank"><img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Game LOL" width="200px" height="300px"> </a>
+				</li> 
+				<li>
+					<a href="https://www.twitch.tv/directory/game/League%20of%20Legends"  target="_blank"><img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Game LOL" width="200px" height="300px"> </a>
+				</li> 
+
+				<li>
+					<a href="https://www.twitch.tv/directory/game/League%20of%20Legends"  target="_blank"><img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Game LOL" width="200px" height="300px"> </a>
+				</li> 
+
+
+			</ul>
+		</div>
+
+	</main>
+
+	<footer>	
+		<p>Com amor <a href="https://music.youtube.com/">Rockteseat</a>.</p>
+    </footer>
+    
+</body>
+</html>
+   

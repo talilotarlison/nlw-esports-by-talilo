@@ -1,0 +1,138 @@
+ body {
+   background-image: url(../../bg.jpg);
+    font-family: 'crossorigin', sans-serif;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+  background-position: center;
+	/*background: #6a3093;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 { letter-spacing: -0.47px;
+	color:  white;
+margin: 0;}
+
+ p {  letter-spacing: -0.18px;
+    color: #A1A1AA;
+padding: 15px 0;
+}
+header {
+	display: flex;
+	justify-content: center;
+}
+
+.fundo-borda {
+	display: flex;
+	justify-content: center;
+	 align-items: center;
+	margin-top: 50px;
+	width:  120px;
+	height:  120px;
+	 background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+	 
+border-radius: 50%;
+
+}
+.fundo-borda > a > img {
+	
+	border-radius: 50%;
+	transition: transform .3s;
+
+}
+
+main{
+	   max-width: 580px;
+	   margin: 0 auto;
+}
+section {
+	 
+	width: 580px;
+	
+	 margin: 20px 0px ;
+	 border-radius: 55px;
+
+	}
+
+section > div {
+	 background-color: #2A2634;
+	 width: 580px;
+	border-top:solid 10px ;
+ 	border-image-slice: 1;
+  border-width: 5px;
+border-radius:0 0 15px  15px;
+border-image-source: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%) ;
+padding: 20px;
+}
+	
+
+ul {
+ display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+	margin:0 5px ;
+	border-radius: 5px;
+}
+
+.lista-canais > li > a > img{
+	border-radius: 50%;
+}
+
+footer {
+
+	text-align: center;
+}
+svg {
+margin:0 10px ;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+header > div {
+	animation: fromTop .7s .2s backwards;
+	transition: transform .3s;
+}
+main section div img:hover {
+    transform: scale(1.1);
+    opacity:  0.6;
+}
+main section div svg:hover {
+    transform: scale(1.1);
+    opacity:  0.6;
+}
+
+
+main > section > div{
+	animation: fromSide .7s .2s backwards;
+}
+
+/*animação*/
+
+@keyframes fromTop{
+		from{opacity: 0;
+        transform: translateY(-30px);
+
+		}
+
+		to{opacity: 1;
+        transform: translateY(0px);
+
+		}
+}
+
+@keyframes fromSide{
+		from{opacity: 0;
+        transform: translateX(-30px);
+
+		}
+
+		to{opacity: 1;
+        transform: translatex(0px);
+
+		}
+}
