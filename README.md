@@ -1,6 +1,6 @@
-# nlw-esports-by-talilo
-# NLW eSports
 
+# NLW eSports
+### nlw-esports-by-talilo
 ![preview](./github/prevew.png)
 
 > Trilha Explorer
