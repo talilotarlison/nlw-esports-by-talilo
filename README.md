@@ -18,4 +18,4 @@ Projeto construído do evento Next Level Week da Rocketseat, em 15/09/2022.
 
 ## 💛 Contato
 
-ttarlison@gmail.com
+[🔗 https://linktr.ee/talilo.tarlison](https://linktr.ee/talilo.tarlison)
